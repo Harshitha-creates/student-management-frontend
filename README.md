@@ -1,16 +1,56 @@
-# React + Vite
+# 🎓 Student Management System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+A React-based frontend application that interacts with a .NET backend to manage student data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🧠 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* View all students
+* Add new student
+* Update student details
+* Delete student
+* Clean and responsive UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* React (Vite)
+* Axios
+* React Router DOM
+* CSS
+
+---
+
+## 📂 Project Structure
+
+src/
+
+* api → API calls
+* components → UI components
+* App.jsx → routing
+* main.jsx → entry point
+
+---
+
+## 🔌 API Integration
+
+Uses Axios to connect with backend APIs.
+
+---
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 💡 Key Learning
+
+Built a modular frontend with separation of concerns and integrated it with a backend system using REST APIs.
